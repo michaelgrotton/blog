@@ -48,12 +48,6 @@
 }
 
 .img {
-  height:175px;
-  width:100%;
-  background-size:cover;
-  text-align:center;
-  overflow:hidden;
-  background-position:center;
   border-radius:5px 5px 0px 0px;
 }
 

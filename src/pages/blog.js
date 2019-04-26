@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import styles from "./blog.module.css"
+import Image from "gatsby-image"
 
 class Blog extends React.Component {
   render() {
@@ -14,7 +15,7 @@ category => category.fieldValue !== 'pinned'
 
     return (
       <Layout>
-          <h2 style={{textAlign:"center"}}>All Blog Posts</h2>
+          <h2 style={{textAlign:"center",fontSize:"28px"}}>All Blog Posts</h2>
           <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
             {categories.map(category => (
               <div style={{display:"flex",marginRight:"4px",marginBottom:"4px"}}>
@@ -30,12 +31,18 @@ category => category.fieldValue !== 'pinned'
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               const tags = node.frontmatter.tags
-              const headerURL = node.frontmatter.attachments[0].publicURL
+              const picture = node.frontmatter.attachments[0].childImageSharp.fixed
 
               return (
                 <div className={styles.post} key={node.fields.slug}>
                   <Link className={styles.postLink}  to={node.fields.slug}></Link>
-                  <div className={styles.img} style={{backgroundImage:'url(' + headerURL + ')'}}></div>
+                  <div style={{height:"175px",width:"100%",overflow:"hidden",textAlign:"center"}}>
+                    <Image
+                       fixed={picture}
+                       alt={title}
+                       class={styles.img}
+                     />
+                   </div>
                   <div style={{padding:"15px"}}>
                     <h3 style={{marginBottom:"3px",textAlign:"left",fontSize:"24px"}}>
                     {title}
@@ -78,7 +85,11 @@ export const pageQuery = graphql`
             title
             tags
             attachments {
-              publicURL
+              childImageSharp {
+                fixed (height:175) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
             }
           }
         }
