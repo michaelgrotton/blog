@@ -1,0 +1,37 @@
+.cont {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  margin-bottom:5px;
+}
+
+.area {
+  appearance:none;
+  border-radius:5px;
+  padding:3px;
+  border:2px solid #BCDEFA;
+  box-shadow:1px 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.send {
+  background-color:#BCDEFA;
+  border-radius:5px;
+  border:2px solid #2779BD;
+  margin-top:20px;
+}
+
+.send:hover {
+  background-color:#6CB2EB;
+  cursor:pointer;
+}
+
+.send:focus {
+  appearance:none;
+  outline:none;
+  box-shadow:none;
+}
+
+.area:focus {
+  outline:none;
+  border:2px solid #3490DC;
+}

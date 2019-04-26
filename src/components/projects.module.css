@@ -1,0 +1,35 @@
+.demo {
+  background-color:#A2F5BF;
+  border:2px solid #1F9D55;
+  width:115px;
+  height:35px;
+  margin-bottom:5px;
+  color:black;
+  border-radius:5px;
+  font-size:14px;
+  line-height:33px;
+  font-weight:lighter;
+  text-align:center;
+}
+
+.demo:hover {
+  background-color:#51D88A;
+}
+
+.source {
+  background-color:#BCDEFA;
+  border:2px solid #2779BD;
+  width:115px;
+  height:35px;
+  margin-bottom:5px;
+  color:black;
+  border-radius:5px;
+  font-size:14px;
+  line-height:33px;
+  font-weight:lighter;
+  text-align:center;
+}
+
+.source:hover {
+  background-color:#6CB2EB;
+}
