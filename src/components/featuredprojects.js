@@ -34,7 +34,7 @@ function FeaturedProjects() {
               <h3 style={{fontSize:"21px",marginBottom:"5px"}}>michaelgrotton.xyz</h3>
               <p style={{fontSize:"16px"}}>This site, designed and built by me with gatsby.js</p>
             </div>
-            <div style={{display:"flex",width:"30%",flexWrap:"wrap"}}>
+            <div style={{display:"flex",width:"30%",flexWrap:"wrap",justifyContent:"space-between",alignContent:"start",alignItems:"center",marginRight:"10px"}}>
               <a href="https://github.com/michaelgrotton/blog" style={{textDecoration:"none"}}>
                 <div className={styles.source}>
                   Source
