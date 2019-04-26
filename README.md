@@ -11,3 +11,4 @@ todo:
   * add an email notification list
   * optimize images
   * fix chrome tab titles
+  * make a landing page for form submissions
