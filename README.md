@@ -9,3 +9,5 @@ It is built with gatsby.js, and I started it with the gatsby-blog-starter repo, 
 todo:
   * clean up css (mostly just navigation.js)
   * add an email notification list
+  * optimize images
+  * fix chrome tab titles
