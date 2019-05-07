@@ -46,6 +46,7 @@ category => category.fieldValue !== 'pinned'
                        fixed={picture}
                        alt={title}
                        class={styles.img}
+                       style={{zIndex:0}}
                      />
                    </div>
                   <div style={{padding:"15px"}}>
@@ -56,7 +57,7 @@ category => category.fieldValue !== 'pinned'
                     <div style={{display:"flex",flexWrap:"wrap",marginTop:"10px"}}>
                       {tags.map((tag) => {
                         return(
-                        <Link style={{width:"48%",marginLeft:"2px",marginRight:"2px",marginBottom:"4px",textDecoration:"none",zIndex:"1"}} to={`/tags/${tag}`}>
+                        <Link style={{width:"48%",marginLeft:"2px",marginRight:"2px",marginBottom:"4px",textDecoration:"none",zIndex:"2"}} to={`/tags/${tag}`}>
                           <div className={styles.category} style={{border:"0px",lineHeight:"32px"}}>
                             #{tag}
                           </div>

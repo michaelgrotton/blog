@@ -10,7 +10,7 @@
   line-height:28px;
   font-size:13px;
   color:black;
-  font-weight:lighter;
+  font-weight:500;
 }
 
 .category:hover {
@@ -26,6 +26,7 @@
   margin:0;
   position:absolute;
   left:0; top:0; bottom:0; right:0;
+  z-index:1;
 }
 
 .post {
@@ -58,7 +59,7 @@
   line-height:28px;
   font-size:13px;
   color:black;
-  font-weight:lighter;
+  font-weight:500;
 }
 
 .selected:hover {
@@ -93,5 +94,11 @@
   }
   .post {
     width:32%;
+  }
+  .category{
+    font-weight:lighter;
+  }
+  .selected {
+    font-weight:lighter;
   }
 }
