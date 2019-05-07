@@ -64,6 +64,7 @@
   padding-right:6px;
   font-weight:lighter;
   margin-bottom:10px;
+  font-size:14px;
 }
 
 .pill {
@@ -77,6 +78,7 @@
   padding-left:6px;
   padding-right:6px;
   font-weight:lighter;
+  font-size:14px;
 }
 
 .pill:hover, .pillScrolled:hover {
@@ -129,9 +131,11 @@
   }
   .pill {
     line-height:55px;
+    font-size:16px;
   }
   .pillScrolled {
     line-height:45px;
+    font-size:16px;
   }
   .nav {
     height:70px;

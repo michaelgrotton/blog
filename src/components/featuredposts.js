@@ -22,11 +22,10 @@ function FeaturedPosts() {
                  return (
                    <div className={styles.post} key={node.fields.slug}>
                      <Link className={styles.postLink}  to={node.fields.slug}></Link>
-                     <div style={{height:"175px",width:"100%",overflow:"hidden",textAlign:"center"}}>
+                     <div style={{height:"175px",width:"100%",overflow:"hidden",textAlign:"center",borderRadius:"5px 5px 0px 0px"}}>
                        <Image
                           fixed={picture}
                           alt={title}
-                          class={styles.img}
                         />
                       </div>
                      <div style={{padding:"15px"}}>

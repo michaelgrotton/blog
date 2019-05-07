@@ -2,12 +2,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 import styles from "./connect.module.css"
+import SEO from "../components/seo"
 
 
 class Connect extends React.Component {
   render() {
     return (
       <Layout>
+          <SEO
+            title="Contact"
+          />
           <h2 style={{textAlign:"center"}}>Let&#39;s be internet friends!</h2>
           <form style={{display:"flex",flexDirection:"column",alignItems:"center"}} name="contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="form-name" value="contact-form"/>

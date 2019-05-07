@@ -47,10 +47,6 @@
   cursor:pointer;
 }
 
-.img {
-  border-radius:5px 5px 0px 0px;
-}
-
 .selected {
   border-radius:4px;
   dispaly:block;

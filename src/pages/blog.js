@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import styles from "./blog.module.css"
 import Image from "gatsby-image"
+import SEO from "../components/seo"
 
 class Blog extends React.Component {
   render() {
@@ -15,6 +16,10 @@ category => category.fieldValue !== 'pinned'
 
     return (
       <Layout>
+        <SEO
+          title="Blog"
+          keywords={[`blog`, `Michael Grotton`]}
+        />
           <h2 style={{textAlign:"center",fontSize:"28px"}}>All Blog Posts</h2>
           <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
             {categories.map(category => (
@@ -36,7 +41,7 @@ category => category.fieldValue !== 'pinned'
               return (
                 <div className={styles.post} key={node.fields.slug}>
                   <Link className={styles.postLink}  to={node.fields.slug}></Link>
-                  <div style={{height:"175px",width:"100%",overflow:"hidden",textAlign:"center"}}>
+                  <div style={{height:"175px",width:"100%",overflow:"hidden",textAlign:"center",borderRadius:"5px 5px 0px 0px"}}>
                     <Image
                        fixed={picture}
                        alt={title}
