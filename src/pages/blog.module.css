@@ -19,6 +19,26 @@
   color:black;
 }
 
+.tag {
+  border-radius:4px;
+  dispaly:block;
+  height:33px;
+  background-color:#d0e8fb;
+  text-align:center;
+  box-shadow:none;
+  text-decoration:none;
+  line-height:34px;
+  font-size:13px;
+  color:black;
+  font-weight:500;
+}
+
+.tag:hover {
+  background-color:#a0d0f8;
+  text-decoration:none;
+  color:black;
+}
+
 .post-link {
   box-shadow:none;
   text-decoration:none;
@@ -52,11 +72,11 @@
   border-radius:4px;
   dispaly:block;
   height:33px;
-  background-color:#FFF9C2;
+  background-color:#fff599;
   text-align:center;
   box-shadow:none;
   text-decoration:none;
-  line-height:28px;
+  line-height:34px;
   font-size:13px;
   color:black;
   font-weight:500;
@@ -96,6 +116,9 @@
     width:32%;
   }
   .category{
+    font-weight:lighter;
+  }
+  .tag{
     font-weight:lighter;
   }
   .selected {

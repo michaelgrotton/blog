@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-        <Bio />
+        <Bio location={"template"}/>
           <hr
             style={{
               marginBottom: rhythm(1),

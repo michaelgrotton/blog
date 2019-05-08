@@ -46,7 +46,7 @@ const Tags = ({ pageContext, data }) => {
                     {tags.map((currentTag) => {
                       return(
                         <Link style={{width:"48%",marginLeft:"2px",marginRight:"2px",marginBottom:"4px",textDecoration:"none",zIndex:"1"}} to={`/tags/${currentTag}`}>
-                          <div className={ currentTag === tag ? styles.selected : styles.category} style={{border:"0px",lineHeight:"32px"}}>
+                          <div className={ currentTag === tag ? styles.selected : styles.tag}>
                             #{currentTag}
                           </div>
                         </Link>

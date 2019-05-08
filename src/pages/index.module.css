@@ -1,0 +1,16 @@
+.cont {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:40px;
+  flex-direction:column;
+  margin-top:90px;
+  align-items:center;
+}
+
+@media (min-width: 768px) {
+    .cont {
+      flex-direction:row;
+      margin-top:0px;
+      align-items:flex-center;
+    }
+}

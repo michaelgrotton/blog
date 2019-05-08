@@ -37,7 +37,7 @@ function FeaturedPosts() {
                          {tags.map((tag) => {
                            return(
                            <Link style={{width:"48%",marginLeft:"2px",marginRight:"2px",marginBottom:"4px",textDecoration:"none",zIndex:"1"}} key={tag} to={`/tags/${tag}`}>
-                             <div className={ tag === "featured" ? styles.selected : styles.category} style={{border:"0px",lineHeight:"32px"}}>
+                             <div className={ tag === "featured" ? styles.selected : styles.tag}>
                                #{tag}
                              </div>
                            </Link>

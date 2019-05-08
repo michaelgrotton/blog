@@ -5,7 +5,9 @@ import Bio from "../components/bio"
 import FeaturedPosts from "../components/featuredposts"
 import FeaturedProjects from "../components/featuredprojects"
 import Layout from "../components/layout"
+import Status from "../components/status"
 import SEO from "../components/seo"
+import styles from "./index.module.css"
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +17,10 @@ class BlogIndex extends React.Component {
           title="Home"
           keywords={[`blog`, `Michael Grotton`]}
         />
-        <Bio />
+      <div className={styles.cont}>
+          <Bio location={"home"}/>
+          <Status/>
+        </div>
         <FeaturedPosts />
         <FeaturedProjects />
       </Layout>

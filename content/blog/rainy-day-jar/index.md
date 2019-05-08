@@ -1,18 +1,16 @@
 ---
-title: Things I Don't Know / Rainy Day Jar really long title
-date: "2019-03-26"
+title: Rainy Day Jar
+date: "2019-05-07"
 tags: ["updated-often","personal","featured"]
 attachments:
-  - "./undraw_into_the_night_vumi.png"
+  - "./undraw_raining_sguh.png"
 ---
 
-This post is inspired by Dan Abramov's [Things I Don't Know as of 2018]("https://overreacted.io/things-i-dont-know-as-of-2018/"), but with a different motivation (and half of a different title). Dan writes that the motivation for his post was to use his position as a distinguished senior engineer with a significant online following to break down imposter syndrome and unrealistic expectations of a *real* engineer's skillset by listing all of the technical skills he doesn't know that most people in software development assume he should know.
-
-I am not a senior engineer, or even a junior engineer, and here is where this post deviates from Dan's. I am but a lowly undergraduate student, and most of the time I am not assumed to know very much, but I still like the idea of having a big list of things I am interested in but don't know much about, and would like to get around to knowing more about, for no other purpose except to have these interests on paper for the future. A rainy day jar of interests if you will! I have also listed the things I am currently learning below everything I don't know.
+This post is loosely inspired by Dan Abramov's [Things I Don't Know as of 2018]("https://overreacted.io/things-i-dont-know-as-of-2018/"), which is a long list of things that Dan doesn't know. Dan made his list with a mission, which he writes is to use his position as a senior software engineer with a significant online following to break down imposter syndrome and unrealistic expectations of engineers. I just like the idea of having a big list of things I am interested in but don't know much about, and would like to get around to knowing more about, for no other purpose except to have these interests on paper for the future. A rainy day jar of interests if you will! I have also listed the things I am currently learning below everything I don't know.
 
 For the TL;DR version just follow the section titles and the **bold**
 
- **Final note:** If you are someone viewing this site in order to vet me for a potential software development position and are overwhelmed by everything I seemingly do not know, please be sure to check out some of the things I do know by viewing my [projects](./projects) and [blog](./articles) (you can filter the posts by a technical tag of your choice).
+ **Final note:** If you are someone viewing this site in order to vet me for a potential software development position and are overwhelmed by everything I seemingly do not know, please be sure to check out some of the things I do know by viewing my [projects](https://www.michaelgrotton.xyz/projects) and [blog](https://www.michaelgrotton.xyz/articles) (you can filter the posts by a technical tag of your choice).
 
  <br/>
 

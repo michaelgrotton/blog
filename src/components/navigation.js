@@ -52,7 +52,7 @@ class Navigation extends React.Component {
               <Link style={{display:"inline-block",textDecoration:"none",marginTop:"7px",marginLeft:"4px"}} to={`/blog`}><div className={pill}>&nbsp;&nbsp;&nbsp;Blog&nbsp;&nbsp;&nbsp;</div></Link>
               <Link style={{display:"inline-block",textDecoration:"none",marginTop:"7px",marginLeft:"4px"}} to={`/projects`}><div className={pill}>Projects</div></Link>
               <Link style={{display:"inline-block",textDecoration:"none",marginTop:"7px",marginLeft:"4px"}} to={`/about`}><div className={pill}>About Me</div></Link>
-              <Link style={{display:"inline-block",textDecoration:"none",marginTop:"4px"}} to={`/connect`}><div className={pill + " " + styles.connect}>Get in Touch</div></Link>
+              <Link style={{display:"inline-block",textDecoration:"none",marginTop:"4px"}} to={`/connect`}><div className={pill + " " + styles.connect} style={{fontWeight:500}}>Get in Touch</div></Link>
           </div>
         </div>
       </div>

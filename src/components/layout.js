@@ -8,7 +8,7 @@ class Layout extends React.Component {
     const { children } = this.props
 
     return (
-      <div className="h-full">
+      <div>
         <header>
           <Navigation/>
         </header>
