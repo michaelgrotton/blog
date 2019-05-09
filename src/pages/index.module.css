@@ -1,7 +1,7 @@
 .cont {
   display:flex;
   justify-content:space-between;
-  margin-bottom:40px;
+  margin-bottom:20px;
   flex-direction:column;
   margin-top:90px;
   align-items:center;
@@ -12,5 +12,6 @@
       flex-direction:row;
       margin-top:0px;
       align-items:flex-center;
+      margin-bottom:40px;
     }
 }

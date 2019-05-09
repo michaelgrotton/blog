@@ -1,4 +1,5 @@
 .cont {
+   margin:0;
    width:90%;
 }
 
@@ -9,7 +10,23 @@
 
 .text {
   font-size:22px;
-  line-height:32px;
+  line-height:34px;
+}
+
+.indigo {
+  font-size:22px;
+  line-height:28px;
+  color: #6574CD;
+  margin-bottom:5px;
+  border-bottom:2px solid #E6E8FF;
+  background-color:#E6E8FF;
+}
+
+.indigo:hover {
+  cursor:pointer;
+  color: #6574CD;
+  border-bottom:2px solid #6574CD;
+  text-decoration:none;
 }
 
 .orange {
@@ -76,8 +93,25 @@
   text-decoration:none;
 }
 
+.grey {
+  font-size:22px;
+  line-height:28px;
+  color:#3D4852;
+  margin-bottom:5px;
+  border-bottom:2px solid #DAE1E7;
+  background-color:#DAE1E7;
+}
+
+.grey:hover {
+  cursor:pointer;
+  color:#3D4852;
+  border-bottom:2px solid #3D4852;
+  text-decoration:none;
+}
+
 @media (min-width: 768px) {
     .cont {
-      width:65%;
+      width:60%;
+      align-self: stretch;
     }
 }

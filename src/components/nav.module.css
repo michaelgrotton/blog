@@ -92,7 +92,7 @@
   border-radius:5px;
   padding-left:3px;
   padding-right:3px;
-  background-color:#FCFBEB;
+  background-color:#FFF9C2;
   border:2px solid #F2D024;
   color:black;
   padding-left:6px;
@@ -101,7 +101,7 @@
 }
 
 .connect:hover {
-  background-color:#FFF9C2;
+  background-color:#FFF382;
   text-decoration:none;
   color:black;
 }

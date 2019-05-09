@@ -8,7 +8,7 @@ function FeaturedProjects() {
         <h2 style={{textAlign:"center",fontSize:"28px",marginTop:"20px"}}>Projects</h2>
         <h4 style={{marginBottom:"5px"}}>Technical Projects</h4>
         <hr/>
-        <div id="project" style={{marginBottom:"10px"}}>
+        <div style={{marginBottom:"10px"}}>
           <div style={{display:"flex",justifyContent:"space-between"}}>
             <div style={{width:"60%"}}>
               <h3 style={{fontSize:"21px",marginBottom:"5px"}}>Spotify Personal Profile</h3>
@@ -28,7 +28,7 @@ function FeaturedProjects() {
             </div>
           </div>
         </div>
-        <div id="project" style={{marginBottom:"10px"}}>
+        <div style={{marginBottom:"10px"}}>
           <div style={{display:"flex",justifyContent:"space-between"}}>
             <div style={{width:"60%"}}>
               <h3 style={{fontSize:"21px",marginBottom:"5px"}}>michaelgrotton.xyz</h3>
