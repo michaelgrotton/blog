@@ -1,4 +1,4 @@
-This is a personal blog / portfolio / website for technical projects and blog posts, and non-technical projects and blog posts like cooking/baking, reading, photograpy, personal life musings, etc etc.
+This is a personal blog / portfolio / website for technical and non-technical blog posts.
 
 It is built with gatsby.js, and I started it with the gatsby-blog-starter repo, but here are the changes I made:
   * site design, implemented with native css
@@ -8,5 +8,4 @@ It is built with gatsby.js, and I started it with the gatsby-blog-starter repo, 
 
 todo:
   * clean up css (mostly just navigation.js)
-  * add an email notification list
   * make a landing page for form submissions
